@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "chatting application"
+version = "0.1.0"
+description = ""
+authors = ["ArunSharma2234 <arun.sharma@baar.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+channels = "4.0.0"
+django = "4.2.9"
+bcrypt = "4.1.1"
+daphne = "4.0.0"
+django-cors-headers = "4.3.1"
+djangorestframework = "3.14.0"
+mysqlclient = "2.2.1"
+pyjwt = "2.8.0"
+cryptography = "41.0.7"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
